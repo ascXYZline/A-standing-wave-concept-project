@@ -1,0 +1,10 @@
+name: wave-manim
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - manim=0.18.1
+  - numpy>=2.0
+  - pillow
+  - ffmpeg
+  # A system TeX installation with latex + dvisvgm is also required.
